@@ -1,0 +1,23 @@
+{
+  "name": "lumina-events",
+  "version": "1.0.0",
+  "description": "Lumina & Co. Events - Bespoke Luxury Event Planning & Production Digital Experience",
+  "type": "module",
+  "main": "index.html",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "start": "node scripts/server.js",
+    "dev": "node scripts/server.js",
+    "preview": "node scripts/server.js --dist"
+  },
+  "keywords": [
+    "luxury-events",
+    "event-planner",
+    "bespoke-weddings",
+    "corporate-galas",
+    "portfolio",
+    "budget-estimator"
+  ],
+  "author": "Lumina & Co. Digital Experience Atelier",
+  "license": "MIT"
+}

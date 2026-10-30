@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lumina & Co. | Bespoke Luxury Event Planning & Production</title>
+  <meta name="description" content="Lumina & Co. is a premier luxury event planning and production agency specializing in bespoke weddings, high-impact corporate galas, and exclusive private celebrations worldwide.">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✨</text></svg>">
+</head>
+<body>
+
+  <!-- =========================================================================
+       Navigation Bar
+       ========================================================================= -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-wrapper">
+      <a href="#hero" class="brand-logo">
+        <div class="brand-monogram">L</div>
+        <div class="brand-text">
+          <span class="brand-name">LUMINA & CO.</span>
+          <span class="brand-sub">EVENTS • ATELIER</span>
+        </div>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#estimator-section" class="nav-link">Investment Calculator</a></li>
+        <li><a href="#portfolio-section" class="nav-link">Portfolio</a></li>
+        <li><a href="#process-section" class="nav-link">The Method</a></li>
+        <li><a href="#services-section" class="nav-link">Services</a></li>
+        <li><a href="#moodboard-section" class="nav-link">Aesthetics</a></li>
+        <li><a href="#faq-section" class="nav-link">FAQ</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="#booking-section" class="btn btn-gold btn-sm">Schedule Atelier Call</a>
+        <button class="mobile-toggle" id="mobileMenuToggle" aria-label="Toggle navigation menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <aside class="mobile-drawer" id="mobileDrawer">
+    <div>
+      <button class="drawer-close" id="drawerCloseBtn" aria-label="Close menu">✕</button>
+      <ul class="drawer-links">
+        <li><a href="#hero" class="drawer-link">Home</a></li>
+        <li><a href="#estimator-section" class="drawer-link">Investment Estimator</a></li>
+        <li><a href="#portfolio-section" class="drawer-link">Portfolio & Case Studies</a></li>
+        <li><a href="#process-section" class="drawer-link">The 4-Phase Method</a></li>
+        <li><a href="#services-section" class="drawer-link">Signature Services</a></li>
+        <li><a href="#moodboard-section" class="drawer-link">Aesthetic Moodboards</a></li>
+        <li><a href="#testimonials-section" class="drawer-link">Client Reviews</a></li>
+        <li><a href="#faq-section" class="drawer-link">FAQ</a></li>
+      </ul>
+    </div>
+    <div style="padding-top: 2rem;">
+      <a href="#booking-section" class="btn btn-gold drawer-link" style="width: 100%;">Schedule Consultation</a>
+    </div>
+  </aside>
+  <div class="drawer-overlay" id="drawerOverlay" aria-hidden="true"></div>
+
+  <!-- =========================================================================
+       Hero Section
+       ========================================================================= -->
+  <section class="hero-section" id="hero">
+    <div class="hero-backdrop-glow"></div>
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="hero-badge-dot"></span>
+          <span>CURATING EXTRAORDINARY MEMORIES WORLDWIDE</span>
+        </div>
+
+        <h1 class="hero-title">
+          Where Architectural Precision Meets <span class="gold-gradient-text serif">Pure Artistry.</span>
+        </h1>
+
+        <p class="hero-description">
+          Lumina & Co. designs, plans, and orchestrates bespoke weddings, marquee corporate summits, and milestone celebrations across the world's most breathtaking private estates and historic venues.
+        </p>
+
+        <div class="hero-cta-group">
+          <a href="#estimator-section" class="btn btn-gold">
+            <span>Calculate Event Investment</span>
+            <span>→</span>
+          </a>
+          <a href="#portfolio-section" class="btn btn-outline">
+            <span>Explore Case Studies</span>
+          </a>
+        </div>
+
+        <div class="hero-stats-row">
+          <div class="stat-item">
+            <h3>500+</h3>
+            <p>Events Orchestrated</p>
+          </div>
+          <div class="stat-item">
+            <h3>14</h3>
+            <p>Global Destinations</p>
+          </div>
+          <div class="stat-item">
+            <h3>99.4%</h3>
+            <p>Client Satisfaction</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual-card">
+        <div class="hero-image-frame">
+          <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=80" alt="Lumina & Co. Luxury Lake Como Wedding" />
+        </div>
+        <div class="hero-floating-card">
+          <div class="floating-icon">✦</div>
+          <div class="floating-info">
+            <h4>Bespoke Excellence</h4>
+            <p>Featured in Vogue & Harper's Bazaar 2026 World's Top Event Planners</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       Press & Accolades Strip
+       ========================================================================= -->
+  <div class="press-strip">
+    <div class="container">
+      <p class="press-label">Celebrated by International Publications & Industry Leaders</p>
+      <div class="press-logos">
+        <span class="press-logo-text">VOGUE</span>
+        <span class="press-logo-text">HARPER'S BAZAAR</span>
+        <span class="press-logo-text">FORBES LIFE</span>
+        <span class="press-logo-text">ARCHITECTURAL DIGEST</span>
+        <span class="press-logo-text">ELLE DÉCOR</span>
+        <span class="press-logo-text">VANITY FAIR</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       Interactive Investment Estimator (P0)
+       ========================================================================= -->
+  <section class="estimator-section" id="estimator-section">
+    <div class="container">
+      <div style="text-align: center; max-width: 650px; margin: 0 auto;">
+        <span class="section-tag">TRANSPARENT VALUE</span>
+        <h2 class="section-title">Interactive Investment Estimator</h2>
+        <p class="section-subtitle" style="margin: 0 auto;">
+          Estimate budget allocations across guest counts, design scopes, and signature sensory additions.
+        </p>
+      </div>
+
+      <div class="estimator-container">
+        <!-- Interactive Controls -->
+        <div class="calculator-card">
+          <!-- Step 1: Event Type -->
+          <div class="calc-group">
+            <label class="calc-label">
+              <span>1. Select Event Typology</span>
+            </label>
+            <div class="pill-grid">
+              <button class="pill-choice selected" data-event-type="wedding">Luxury Wedding</button>
+              <button class="pill-choice" data-event-type="corporate">Corporate Gala</button>
+              <button class="pill-choice" data-event-type="private">Milestone Soirée</button>
+              <button class="pill-choice" data-event-type="brand">Brand Showcase</button>
+            </div>
+          </div>
+
+          <!-- Step 2: Guest Count Slider -->
+          <div class="calc-group">
+            <div class="calc-label">
+              <span>2. Estimated Guest Attendance</span>
+              <span class="calc-val-highlight" id="guestCountDisplay">150 Guests</span>
+            </div>
+            <div class="range-slider-wrapper">
+              <input type="range" min="30" max="600" step="10" value="150" class="range-slider" id="guestSlider" />
+              <div class="slider-ticks">
+                <span>30 Guests (Intimate)</span>
+                <span>150 Guests</span>
+                <span>350 Guests</span>
+                <span>600+ Guests (Marquee)</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Step 3: Production Service Tier -->
+          <div class="calc-group">
+            <label class="calc-label">
+              <span>3. Desired Production Scope</span>
+            </label>
+            <div class="pill-grid" style="grid-template-columns: repeat(3, 1fr);">
+              <button class="pill-choice selected" data-service-level="full">Full-Service Bespoke</button>
+              <button class="pill-choice" data-service-level="design">Design & Curation</button>
+              <button class="pill-choice" data-service-level="direction">Month-Of Direction</button>
+            </div>
+          </div>
+
+          <!-- Step 4: Add-on Elements -->
+          <div class="calc-group">
+            <label class="calc-label">
+              <span>4. Signature Experiences & Add-Ons</span>
+            </label>
+            <div class="addons-grid">
+              <div class="addon-card selected" data-addon="catering">
+                <div class="addon-info">
+                  <div class="addon-checkbox">✓</div>
+                  <span class="addon-title">Chef-Curated Gastronomy & Mixology Atelier</span>
+                </div>
+                <span class="addon-price">+\$12,000 + \$95/guest</span>
+              </div>
+
+              <div class="addon-card selected" data-addon="scenography">
+                <div class="addon-info">
+                  <div class="addon-checkbox">✓</div>
+                  <span class="addon-title">Architectural Scenography, Custom Florals & Lighting</span>
+                </div>
+                <span class="addon-price">+\$16,000</span>
+              </div>
+
+              <div class="addon-card" data-addon="entertainment">
+                <div class="addon-info">
+                  <div class="addon-checkbox">✓</div>
+                  <span class="addon-title">Headline Live Performers & Classical String Quartet</span>
+                </div>
+                <span class="addon-price">+\$18,000</span>
+              </div>
+
+              <div class="addon-card" data-addon="cinema">
+                <div class="addon-info">
+                  <div class="addon-checkbox">✓</div>
+                  <span class="addon-title">Cinema-Grade 4K Multi-Cam & Drone Videography</span>
+                </div>
+                <span class="addon-price">+\$9,500</span>
+              </div>
+
+              <div class="addon-card" data-addon="concierge">
+                <div class="addon-info">
+                  <div class="addon-checkbox">✓</div>
+                  <span class="addon-title">VIP Luxury Chauffeur & Destination Concierge</span>
+                </div>
+                <span class="addon-price">+\$8,500</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Result Sidebar -->
+        <div class="estimator-summary-card">
+          <div class="summary-header">
+            <span>Estimated Investment Bracket</span>
+            <div class="estimated-price-tag" id="estimatedPriceRange">\$135,000 – \$168,000</div>
+            <p class="price-subtext">Comprehensive production model based on current industry benchmarks.</p>
+          </div>
+
+          <div class="summary-scope-details">
+            <div class="scope-row">
+              <span>Typology:</span>
+              <strong id="scopeEventType">Bespoke Wedding</strong>
+            </div>
+            <div class="scope-row">
+              <span>Guest Model:</span>
+              <strong id="scopeGuestCount">150 Attendees</strong>
+            </div>
+            <div class="scope-row">
+              <span>Production Tier:</span>
+              <strong id="scopeServiceLevel">Full-Service Bespoke</strong>
+            </div>
+          </div>
+
+          <!-- Allocation Breakdown Bars -->
+          <div class="allocation-breakdown">
+            <h4 style="font-size: 0.82rem; text-transform: uppercase; color: var(--text-dim); margin-bottom: 0.75rem; letter-spacing: 0.08em;">
+              Estimated Allocation Model
+            </h4>
+
+            <div class="allocation-item">
+              <div class="alloc-labels">
+                <span>Management, Design & CAD (20%)</span>
+                <span id="allocMgmt">\$30,000</span>
+              </div>
+              <div class="alloc-bar-bg"><div class="alloc-bar-fill" style="width: 20%;"></div></div>
+            </div>
+
+            <div class="allocation-item">
+              <div class="alloc-labels">
+                <span>Venue & Culinary Experience (42%)</span>
+                <span id="allocVenue">\$63,000</span>
+              </div>
+              <div class="alloc-bar-bg"><div class="alloc-bar-fill" style="width: 42%;"></div></div>
+            </div>
+
+            <div class="allocation-item">
+              <div class="alloc-labels">
+                <span>Scenography, Floral & Lighting (23%)</span>
+                <span id="allocDecor">\$35,000</span>
+              </div>
+              <div class="alloc-bar-bg"><div class="alloc-bar-fill" style="width: 23%;"></div></div>
+            </div>
+
+            <div class="allocation-item">
+              <div class="alloc-labels">
+                <span>Media, Audio/Visual & Sound (15%)</span>
+                <span id="allocMedia">\$22,000</span>
+              </div>
+              <div class="alloc-bar-bg"><div class="alloc-bar-fill" style="width: 15%;"></div></div>
+            </div>
+          </div>
+
+          <button class="btn btn-gold" id="consultWithScopeBtn" style="width: 100%;">
+            <span>Schedule Call With This Scope</span>
+            <span>→</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       Curated Portfolio & Case Studies (P0)
+       ========================================================================= -->
+  <section class="portfolio-section" id="portfolio-section">
+    <div class="container">
+      <div class="portfolio-header">
+        <div>
+          <span class="section-tag">CURATED ARCHIVE</span>
+          <h2 class="section-title">Selected Case Studies</h2>
+          <p class="section-subtitle">
+            Explore a selection of our most celebrated weddings, corporate summits, and private estate soirées worldwide.
+          </p>
+        </div>
+
+        <div class="filter-group">
+          <button class="filter-btn active" data-filter="all">All Events</button>
+          <button class="filter-btn" data-filter="weddings">Weddings</button>
+          <button class="filter-btn" data-filter="corporate">Corporate & Tech</button>
+          <button class="filter-btn" data-filter="private">Private Celebrations</button>
+        </div>
+      </div>
+
+      <div class="portfolio-grid" id="portfolioGrid">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Case Study Lightbox Modal -->
+  <div class="modal-overlay" id="caseStudyModal">
+    <div class="modal-content">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close modal">✕</button>
+      
+      <div class="modal-hero-frame">
+        <img id="modalHeroImg" src="" alt="Case Study Hero" />
+      </div>
+
+      <div class="modal-body">
+        <div class="modal-header-meta">
+          <span id="modalCategory">Category</span>
+          <span>•</span>
+          <span id="modalLocation">Location</span>
+        </div>
+
+        <h2 class="modal-title" id="modalTitle">Case Study Title</h2>
+
+        <p class="modal-narrative" id="modalDescription">Detailed Narrative</p>
+
+        <!-- Metrics Grid -->
+        <div class="modal-metrics-grid">
+          <div class="modal-metric-card">
+            <h5>Planning Timeline</h5>
+            <p id="modalPlanningTime">-</p>
+          </div>
+          <div class="modal-metric-card">
+            <h5>Artisans & Vendors</h5>
+            <p id="modalVendorsCount">-</p>
+          </div>
+          <div class="modal-metric-card">
+            <h5>Sustainability</h5>
+            <p id="modalSustainability">-</p>
+          </div>
+        </div>
+
+        <!-- Challenges Solved -->
+        <div style="margin-bottom: 2rem;">
+          <h4 style="font-size: 0.95rem; font-weight: 600; color: var(--text-pure); margin-bottom: 0.5rem;">
+            Challenges & Spatial Engineering
+          </h4>
+          <p style="font-size: 0.92rem; color: var(--text-muted); line-height: 1.7;" id="modalChallenges">
+            Logistics details
+          </p>
+        </div>
+
+        <!-- Palette Swatches -->
+        <div class="modal-palette-box">
+          <h4>Bespoke Color & Material Palette</h4>
+          <div class="palette-chips" id="modalPaletteChips">
+            <!-- Chips rendered dynamically -->
+          </div>
+        </div>
+
+        <!-- Client Quote -->
+        <div class="modal-quote-block">
+          <p id="modalQuoteText">"Client quote here."</p>
+          <span id="modalQuoteAuthor">Author</span>
+        </div>
+
+        <div style="text-align: right;">
+          <a href="#booking-section" class="btn btn-gold btn-sm" onclick="document.getElementById('modalCloseBtn').click()">
+            Inquire About Similar Event
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       The Lumina 4-Phase Method
+       ========================================================================= -->
+  <section class="process-section" id="process-section">
+    <div class="container">
+      <div style="text-align: center; max-width: 650px; margin: 0 auto;">
+        <span class="section-tag">UNCOMPROMISING PRECISION</span>
+        <h2 class="section-title">The Lumina Method</h2>
+        <p class="section-subtitle" style="margin: 0 auto;">
+          Our proprietary 4-phase production framework delivers zero-stress planning, absolute financial transparency, and flawless day-of orchestration.
+        </p>
+      </div>
+
+      <div class="process-layout">
+        <!-- Step Navigation Buttons -->
+        <div class="process-nav-list">
+          <div class="process-step-btn active">
+            <span class="step-num">01</span>
+            <div class="step-meta">
+              <h4>Vision & Spatial Architecture</h4>
+              <p>Discovery, Site Inspection & Concept Blueprints</p>
+            </div>
+          </div>
+
+          <div class="process-step-btn">
+            <span class="step-num">02</span>
+            <div class="step-meta">
+              <h4>Curation & Sensory Design</h4>
+              <p>Artisans, Tastings, 3D Renderings & Styling</p>
+            </div>
+          </div>
+
+          <div class="process-step-btn">
+            <span class="step-num">03</span>
+            <div class="step-meta">
+              <h4>Logistical Blueprint</h4>
+              <p>Run-of-Show, Weather Contingency & Permitting</p>
+            </div>
+          </div>
+
+          <div class="process-step-btn">
+            <span class="step-num">04</span>
+            <div class="step-meta">
+              <h4>White-Glove Orchestration</h4>
+              <p>Command Team, VIP Concierge & Flawless Execution</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Active Phase Display Card -->
+        <div class="process-display-card">
+          <span class="process-phase-badge" id="processPhaseBadge">PHASE 01 • WEEKS 1 - 4</span>
+          <h3 class="process-display-title" id="processPhaseTitle">Vision & Spatial Architecture</h3>
+          <p class="process-display-tagline" id="processPhaseTagline">
+            Translating your narrative into spatial blueprints and moodboards.
+          </p>
+
+          <h5 class="deliverables-title">Key Phase Deliverables</h5>
+          <ul class="deliverables-list" id="processDeliverablesList">
+            <!-- Rendered by JS -->
+          </ul>
+
+          <div class="process-highlight-box" id="processHighlightText">
+            We don't do templated themes. Every spatial concept is tailored specifically to your story and architectural context.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       Signature Services Matrix
+       ========================================================================= -->
+  <section class="services-section" id="services-section">
+    <div class="container">
+      <div style="text-align: center; max-width: 650px; margin: 0 auto;">
+        <span class="section-tag">PRODUCTION TIERS</span>
+        <h2 class="section-title">Signature Service Offerings</h2>
+        <p class="section-subtitle" style="margin: 0 auto;">
+          Whether requiring complete architectural production or specialized design curation, our services are calibrated to your scale.
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <!-- Service 1 -->
+        <div class="service-card featured">
+          <div>
+            <div class="service-header">
+              <h3>Bespoke Full-Service Production</h3>
+              <p class="service-tagline">
+                Complete end-to-end creative direction, architectural scenography, vendor procurement, and white-glove execution.
+              </p>
+            </div>
+            <div class="service-pricing-tag">
+              From \$18,000 Design Fee / 15% Budget
+            </div>
+            <ul class="service-features-list">
+              <li>Dedicated Senior Producer & Lead Spatial Designer</li>
+              <li>Bespoke 3D Floorplans, Spatial CAD & VR Walkthroughs</li>
+              <li>Curated Vendor Procurement & Contract Risk Auditing</li>
+              <li>Complete Budget Management & Real-Time Financial Ledger</li>
+              <li>Gastronomy Direction, Chef Tastings & Wine Pairings</li>
+              <li>Custom Scenography, Custom Florals & Lighting</li>
+              <li>Minute-by-Minute Master Run-of-Show Protocol</li>
+              <li>Unlimited On-Site Production Team from Load-In to Strike</li>
+            </ul>
+          </div>
+          <a href="#booking-section" class="btn btn-gold" style="width: 100%;">Inquire Full Service</a>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="service-card">
+          <div>
+            <div class="service-header">
+              <h3>Aesthetic Design & Curated Sourcing</h3>
+              <p class="service-tagline">
+                For clients who have secured their venue and seek high-level aesthetic styling, custom floral direction, and tablescapes.
+              </p>
+            </div>
+            <div class="service-pricing-tag">
+              From \$9,500 Creative Direction
+            </div>
+            <ul class="service-features-list">
+              <li>Custom Editorial Moodboards & Color Palette Architecture</li>
+              <li>Tablescape, Linen, Glassware & Furniture Curation</li>
+              <li>Bespoke Floral Direction & Studio Sample Mockups</li>
+              <li>Stationery, Typography & Graphic Identity Styling</li>
+              <li>Preferred Vendor Roster Access & Recommendations</li>
+              <li>Final 6-Week Production Handover & Logistics Audit</li>
+              <li>Full Day-Of Aesthetic Styling & Spatial Supervision</li>
+            </ul>
+          </div>
+          <a href="#booking-section" class="btn btn-outline" style="width: 100%;">Inquire Design Curation</a>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="service-card">
+          <div>
+            <div class="service-header">
+              <h3>Executive Month-Of Direction</h3>
+              <p class="service-tagline">
+                Precision handover, vendor alignment, and logistical mastery during the crucial final 60 days before your event.
+              </p>
+            </div>
+            <div class="service-pricing-tag">
+              From \$4,800 Coordination
+            </div>
+            <ul class="service-features-list">
+              <li>Comprehensive Contract & Vendor Review at 60 Days Out</li>
+              <li>Final Venue Walkthrough & Load-In Schedule Synchronization</li>
+              <li>Master Timeline Distribution to All Stakeholders</li>
+              <li>Rehearsal Direction & VIP Protocol Coordination</li>
+              <li>14 Hours Continuous On-Site Management on Event Day</li>
+              <li>Complete Production Emergency Kit & Rapid Resolution</li>
+            </ul>
+          </div>
+          <a href="#booking-section" class="btn btn-outline" style="width: 100%;">Inquire Direction</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       Interactive Moodboard & Aesthetic Visualizer
+       ========================================================================= -->
+  <section class="moodboard-section" id="moodboard-section">
+    <div class="container">
+      <div style="text-align: center; max-width: 650px; margin: 0 auto;">
+        <span class="section-tag">SENSORY EXPLORATION</span>
+        <h2 class="section-title">Aesthetic Moodboard Visualizer</h2>
+        <p class="section-subtitle" style="margin: 0 auto;">
+          Sample our curated visual vocabularies, architectural palettes, botanical stems, and lighting temperatures.
+        </p>
+      </div>
+
+      <!-- Theme Selector Tabs -->
+      <div class="moodboard-tabs" style="justify-content: center;">
+        <button class="moodboard-tab active" data-theme="gilded-obsidian">Gilded Obsidian Noir</button>
+        <button class="moodboard-tab" data-theme="tuscan-terracotta">Tuscan Sun & Olive</button>
+        <button class="moodboard-tab" data-theme="ethereal-cloud">Luminescent Cloud & Pearl</button>
+        <button class="moodboard-tab" data-theme="modern-botanica">Verdant Glasshouse Botanica</button>
+      </div>
+
+      <!-- Moodboard Viewer Display -->
+      <div class="moodboard-viewer">
+        <div class="moodboard-photo-frame">
+          <img id="moodboardImg" src="" alt="Moodboard Theme" />
+        </div>
+
+        <div class="moodboard-details">
+          <h3 id="moodboardTitle">Theme Name</h3>
+          <p class="moodboard-subtitle" id="moodboardSubtitle">Subtitle</p>
+          <p class="moodboard-desc" id="moodboardDesc">Theme Description</p>
+
+          <div class="moodboard-spec-row">
+            <div class="moodboard-spec-item">
+              <strong>Ideal For:</strong> <span id="moodboardIdeal">-</span>
+            </div>
+            <div class="moodboard-spec-item">
+              <strong>Botanical Stems:</strong> <span id="moodboardStems">-</span>
+            </div>
+            <div class="moodboard-spec-item">
+              <strong>Lighting Temperature:</strong> <span id="moodboardLighting">-</span>
+            </div>
+          </div>
+
+          <div style="margin-bottom: 1.5rem;">
+            <strong style="font-size: 0.85rem; color: var(--text-pure); display: block; margin-bottom: 0.5rem;">
+              Harmonic Color Palette
+            </strong>
+            <div class="palette-swatches" id="moodboardColorStrip">
+              <!-- Swatches rendered by JS -->
+            </div>
+          </div>
+
+          <a href="#booking-section" class="btn btn-gold btn-sm">
+            Adopt This Aesthetic for Your Event
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       Client Testimonials & Press Reviews
+       ========================================================================= -->
+  <section class="testimonials-section" id="testimonials-section">
+    <div class="container">
+      <div style="text-align: center; max-width: 650px; margin: 0 auto;">
+        <span class="section-tag">VERIFIED PRAISE</span>
+        <h2 class="section-title">Words from Our Patrons</h2>
+        <p class="section-subtitle" style="margin: 0 auto;">
+          Read how our team turned ambitious dreams into effortless reality for couples, founders, and private families.
+        </p>
+      </div>
+
+      <div class="testimonials-grid" id="testimonialsGrid">
+        <!-- Rendered by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       Multi-Step Consultation Booking Wizard (P0)
+       ========================================================================= -->
+  <section class="booking-section" id="booking-section">
+    <div class="container">
+      <div style="text-align: center; max-width: 650px; margin: 0 auto;">
+        <span class="section-tag">COMMENCE YOUR JOURNEY</span>
+        <h2 class="section-title">Schedule an Atelier Consultation</h2>
+        <p class="section-subtitle" style="margin: 0 auto;">
+          Share your vision, date, and preferred format. Our founding partners will prepare a customized preliminary brief.
+        </p>
+      </div>
+
+      <div class="wizard-card">
+        <!-- Wizard Progress Bar -->
+        <div class="wizard-progress-bar">
+          <div class="wizard-progress-line"></div>
+          <div class="wizard-progress-active" id="wizardProgressActive" style="width: 0%;"></div>
+          <div class="progress-node active" data-step-indicator="1">1</div>
+          <div class="progress-node" data-step-indicator="2">2</div>
+          <div class="progress-node" data-step-indicator="3">3</div>
+          <div class="progress-node" data-step-indicator="4">✓</div>
+        </div>
+
+        <!-- Step 1: Event Fundamentals -->
+        <div class="wizard-step-panel active" data-step="1">
+          <div class="wizard-step-header">
+            <h3>Step 1: Event Foundation</h3>
+            <p>Tell us about the celebration you are envisioning.</p>
+          </div>
+
+          <div class="form-grid-2">
+            <div class="form-field">
+              <label for="wizEventType">Event Typology *</label>
+              <select id="wizEventType" class="form-select">
+                <option value="wedding">Bespoke Wedding</option>
+                <option value="corporate">Corporate Gala or Summit</option>
+                <option value="private">Private Milestone Celebration</option>
+                <option value="brand">VIP Brand Showcase / Launch</option>
+              </select>
+            </div>
+
+            <div class="form-field">
+              <label for="wizTargetDate">Target Date or Season *</label>
+              <input type="text" id="wizTargetDate" class="form-input" placeholder="e.g. Autumn 2027 or Oct 14, 2027" />
+            </div>
+          </div>
+
+          <div class="form-grid-2">
+            <div class="form-field">
+              <label for="wizGuestCount">Estimated Guest Count *</label>
+              <input type="number" id="wizGuestCount" class="form-input" value="150" min="20" max="1000" />
+            </div>
+
+            <div class="form-field">
+              <label for="wizVenueStatus">Venue Status</label>
+              <select id="wizVenueStatus" class="form-select">
+                <option value="secured">Venue Already Secured</option>
+                <option value="searching">Need Lumina Venue Scouting & Sourcing</option>
+                <option value="private_estate">Private Family Estate / Residence</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="wizard-controls" style="justify-content: flex-end;">
+            <button class="btn btn-gold" id="wizNextStep1">
+              <span>Next: Aesthetic & Vision</span>
+              <span>→</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Step 2: Aesthetic & Desired Experience -->
+        <div class="wizard-step-panel" data-step="2">
+          <div class="wizard-step-header">
+            <h3>Step 2: Desired Vibe & Atmosphere</h3>
+            <p>Select the mood and budget parameters that resonate with your taste.</p>
+          </div>
+
+          <div class="form-field">
+            <label>Select Aesthetic Vibe</label>
+            <div class="pill-grid" style="grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));">
+              <button type="button" class="pill-choice selected" data-vibe-choice="Modern Black-Tie Noir">Modern Black-Tie Noir</button>
+              <button type="button" class="pill-choice" data-vibe-choice="Tuscan & Mediterranean Heritage">Tuscan & Mediterranean Heritage</button>
+              <button type="button" class="pill-choice" data-vibe-choice="Ethereal Romance & Cloud">Ethereal Romance & Cloud</button>
+              <button type="button" class="pill-choice" data-vibe-choice="Architectural Botanical Glasshouse">Architectural Glasshouse</button>
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label for="wizBudgetBracket">Approximate Target Production Budget</label>
+            <select id="wizBudgetBracket" class="form-select">
+              <option value="$50,000 - $100,000">$50,000 – $100,000</option>
+              <option value="$100,000 - $200,000" selected>$100,000 – $200,000</option>
+              <option value="$200,000 - $400,000">$200,000 – $400,000</option>
+              <option value="$400,000+">$400,000+ (Ultra-Luxury / Marquee)</option>
+            </select>
+          </div>
+
+          <div class="wizard-controls">
+            <button class="btn btn-outline" id="wizPrevStep2">← Back</button>
+            <button class="btn btn-gold" id="wizNextStep2">
+              <span>Next: Contact Details</span>
+              <span>→</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Step 3: Contact Details & Atelier Selection -->
+        <div class="wizard-step-panel" data-step="3">
+          <div class="wizard-step-header">
+            <h3>Step 3: Host Details & Format</h3>
+            <p>Where may our executive producer direct your consultation brief?</p>
+          </div>
+
+          <div class="form-grid-2">
+            <div class="form-field">
+              <label for="wizClientName">Full Name *</label>
+              <input type="text" id="wizClientName" class="form-input" placeholder="e.g. Lady Genevieve Vance" required />
+            </div>
+
+            <div class="form-field">
+              <label for="wizClientEmail">Email Address *</label>
+              <input type="email" id="wizClientEmail" class="form-input" placeholder="e.g. g.vance@ateliers.com" required />
+            </div>
+          </div>
+
+          <div class="form-grid-2">
+            <div class="form-field">
+              <label for="wizClientPhone">Phone Number</label>
+              <input type="tel" id="wizClientPhone" class="form-input" placeholder="+1 (555) 019-2834" />
+            </div>
+
+            <div class="form-field">
+              <label for="wizConsultType">Preferred Consultation Method</label>
+              <select id="wizConsultType" class="form-select">
+                <option value="virtual">Virtual Zoom Atelier (Worldwide)</option>
+                <option value="in_person_ny">In-Person Studio (Manhattan, NY)</option>
+                <option value="in_person_london">In-Person Studio (Mayfair, London)</option>
+                <option value="in_person_paris">In-Person Studio (Place Vendôme, Paris)</option>
+                <option value="phone">Private Phone Call</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label for="wizVisionNotes">Vision Notes, Special Wishes or Venue Links</label>
+            <textarea id="wizVisionNotes" class="form-textarea" placeholder="Tell us any specific dreams, special musical guests, dietary constraints, or non-negotiables..."></textarea>
+          </div>
+
+          <div class="wizard-controls">
+            <button class="btn btn-outline" id="wizPrevStep3">← Back</button>
+            <button class="btn btn-gold" id="wizSubmitBooking">
+              <span>Confirm & Request Consultation</span>
+              <span>✦</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Step 4: Submission Confirmation Screen -->
+        <div class="wizard-step-panel" data-step="4">
+          <div class="wizard-success-card">
+            <div class="success-icon-box">✦</div>
+            <h3 class="serif" style="font-size: 2.2rem; color: var(--text-pure); margin-bottom: 0.5rem;">
+              Your Consultation Request is Confirmed
+            </h3>
+            <p style="font-size: 1.05rem; color: var(--text-muted); max-width: 500px; margin: 0 auto;">
+              Our senior producing partner has received your inquiry. We will contact you within 24 business hours with your preliminary dossier.
+            </p>
+
+            <div class="booking-ref-badge" id="confirmedRefCode">Reference: LUM-2026-9284</div>
+
+            <div class="success-summary-box" id="confirmedSummaryDetails">
+              <!-- Summary populated by JS -->
+            </div>
+
+            <div style="display: flex; justify-content: center; gap: 1rem; margin-top: 2rem;">
+              <button class="btn btn-outline btn-sm" id="printConfirmationBtn">Print / Save Summary</button>
+              <a href="#hero" class="btn btn-gold btn-sm">Return to Home</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       Accordion FAQ Section (P2)
+       ========================================================================= -->
+  <section class="faq-section" id="faq-section">
+    <div class="container">
+      <div style="text-align: center; max-width: 650px; margin: 0 auto;">
+        <span class="section-tag">COMMON INQUIRIES</span>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-subtitle" style="margin: 0 auto;">
+          Answers to our planning timelines, destination production, vendor exclusivity, and transparency policies.
+        </p>
+      </div>
+
+      <div class="faq-list" id="faqList">
+        <!-- Rendered by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       Footer
+       ========================================================================= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-about">
+          <div class="brand-logo" style="margin-bottom: 1rem;">
+            <div class="brand-monogram">L</div>
+            <div class="brand-text">
+              <span class="brand-name">LUMINA & CO.</span>
+              <span class="brand-sub">EVENTS • ATELIER</span>
+            </div>
+          </div>
+          <p>
+            An internationally acclaimed event production atelier creating bespoke sensory celebrations, luxury weddings, and executive summits.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Ateliers</h4>
+          <ul class="footer-links">
+            <li><a href="#booking-section">Manhattan • Madison Ave</a></li>
+            <li><a href="#booking-section">London • Mayfair</a></li>
+            <li><a href="#booking-section">Paris • Place Vendôme</a></li>
+            <li><a href="#booking-section">Lake Como • Bellagio</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#estimator-section">Investment Estimator</a></li>
+            <li><a href="#portfolio-section">Portfolio Archive</a></li>
+            <li><a href="#process-section">The 4-Phase Method</a></li>
+            <li><a href="#services-section">Services Matrix</a></li>
+            <li><a href="#moodboard-section">Aesthetic Themes</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Private Gazette</h4>
+          <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.75rem;">
+            Receive invitations to our seasonal design showcases and private estate previews.
+          </p>
+          <form class="newsletter-form" id="newsletterForm">
+            <input type="email" class="newsletter-input" placeholder="Your email address" required />
+            <button type="submit" class="btn btn-gold btn-sm" style="padding: 0.5rem 1rem;">Join</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 Lumina & Co. Events LLC. All Rights Reserved.</div>
+        <div style="display: flex; gap: 1.5rem;">
+          <a href="#" style="color: var(--text-dim); text-decoration: none;">Privacy Policy</a>
+          <a href="#" style="color: var(--text-dim); text-decoration: none;">Terms of Engagement</a>
+          <a href="#" style="color: var(--text-dim); text-decoration: none;">Press Inquiries</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Master JavaScript Application -->
+  <script type="module" src="./js/app.js"></script>
+</body>
+</html>
+
