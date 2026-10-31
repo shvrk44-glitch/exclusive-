@@ -1,13 +1,13 @@
-# Lumina & Co. Events — Digital Experience & Booking Platform
+# Exclusive Events — Digital Experience & Booking Platform
 
-An ultra-luxury, high-converting digital platform and bespoke event planning experience designed for **Lumina & Co. Events**.
+An ultra-luxury, high-converting digital platform and bespoke event planning experience designed for **Exclusive Events**.
 
 ---
 
 ## 🏛️ Project Structure
 
 ```
-lumina-events/
+Exclusive-events/
 ├── index.html              # Development HTML entrypoint
 ├── package.json            # Project manifest, dependencies & scripts
 ├── PRD.md                  # Comprehensive Product Requirements Document
@@ -40,7 +40,6 @@ Executes the zero-dependency build pipeline, bundles JavaScript, minifies CSS/HT
 ```bash
 npm run build
 ```
-
 **Build Performance:**
 - **Execution Speed**: ~30 ms
 - `dist/index.html`: 36.4 KB (8.5 KB gzipped)
@@ -83,7 +82,7 @@ No server required! Simply double-click either:
    - Category filtering (*All*, *Weddings*, *Corporate*, *Private Celebrations*).
    - Lightbox modal featuring client narratives, spatial challenges solved, planning timeline, vendor count, sustainability ratings, and harmonic color swatches with hex codes.
 
-3. **The Lumina 4-Phase Production Method**:
+3. **The Exclusive Events 4-Phase Production Method**:
    - Interactive workflow switcher across Phase 01 (*Vision & Spatial Architecture*), Phase 02 (*Curation & Sensory Design*), Phase 03 (*Logistical Blueprint*), and Phase 04 (*White-Glove Orchestration*).
 
 4. **Aesthetic Moodboard Visualizer**:
@@ -93,7 +92,7 @@ No server required! Simply double-click either:
    - Comprehensive deliverables checklists, ideal lead times, and transparent pricing indicators.
 
 6. **3-Step Consultation Scheduler Wizard**:
-   - Progressive validation, vibe and budget selection, consultation format preferences (Virtual, Manhattan, London, Paris, Phone), and instant confirmation cards with unique booking reference codes (e.g. `LUM-2026-XXXX`).
+   - Progressive validation, vibe and budget selection, consultation format preferences (Virtual, Manhattan, London, Paris, Phone), and instant confirmation cards with unique booking reference codes (e.g. `EXCL-2026-XXXX`).
 
 7. **Client Praise, Press Accolades & Expandable FAQ**:
    - Verified 5-star reviews, publication badges (*Vogue*, *Harper's Bazaar*, *Forbes Life*, *Architectural Digest*), and accordion FAQs.

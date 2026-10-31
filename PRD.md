@@ -1,5 +1,7 @@
 # Product Requirements Document (PRD)
-## Project: Lumina & Co. Events — Digital Experience & Booking Platform
+
+## Project: Exclusive Events — Digital Experience & Booking Platform
+
 **Version:** 1.0.0  
 **Date:** October 30, 2026  
 **Status:** Approved for Implementation  
@@ -10,12 +12,12 @@
 ## 1. Executive Summary & Vision
 
 ### 1.1 Executive Summary
-**Lumina & Co. Events** is a premier, full-service event design, planning, and production agency specializing in bespoke weddings, high-impact corporate galas, product launches, and exclusive private celebrations. 
+**Exclusive Events** is a premier, full-service event design, planning, and production agency specializing in bespoke weddings, high-impact corporate galas, product launches, and exclusive private celebrations.
 
-The objective of this digital product is to transform Lumina & Co.'s online presence from a static brochure into an immersive, high-converting digital platform. The website combines luxury editorial visual storytelling with practical interactive tools: an **Interactive Event Investment & Budget Estimator**, a **Filterable Portfolio Showcase with Case Study Deep-Dives**, an **Interactive Style & Moodboard Palette Explorer**, and a seamless **Multi-Step Consultation Scheduler**.
+The objective of this digital product is to transform Exclusive Events' online presence from a static brochure into an immersive, high-converting digital platform. The website combines luxury editorial visual storytelling with practical interactive tools: an **Interactive Event Investment & Budget Estimator**, a **Filterable Portfolio Showcase with Case Study Deep-Dives**, an **Interactive Style & Moodboard Palette Explorer**, and a seamless **Multi-Step Consultation Scheduler**.
 
 ### 1.2 Vision Statement
-> *"To craft an effortless digital journey that mirrors the precision, artistry, and white-glove hospitality of an in-person Lumina & Co. event experience — converting high-intent visitors into committed consultation clients."*
+> *"To craft an effortless digital journey that mirrors the precision, artistry, and white-glove hospitality of an in-person Exclusive Events experience — converting high-intent visitors into committed consultation clients."*
 
 ---
 
@@ -23,7 +25,7 @@ The objective of this digital product is to transform Lumina & Co.'s online pres
 
 | Persona | Demographics / Profile | Primary Goal | Key Pain Points | Platform Solution |
 | :--- | :--- | :--- | :--- | :--- |
-| **Eleanor & Julian (The Discerning Couple)** | Age 28–38, HNW professionals planning a high-end luxury or destination wedding (Budget: \$60k–\$250k+). | Seek an elite, trustworthy planner who can execute their bespoke aesthetic flawlessly without stress. | Vague pricing, cookie-cutter wedding packages, opaque vendor relationships. | Transparent budget estimator, curated case studies with design color palettes and moodboards. |
+| **Eleanor & Julian (The Discerning Couple)** | Age 28–38, HNW professionals planning a high-end luxury or destination wedding (Budget: $60k–$250k+). | Seek an elite, trustworthy planner who can execute their bespoke aesthetic flawlessly without stress. | Vague pricing, cookie-cutter wedding packages, opaque vendor relationships. | Transparent budget estimator, curated case studies with design color palettes and moodboards. |
 | **Marcus Vance (Corporate Brand Director)** | Age 35–52, VP of Marketing / Brand Operations at a high-growth tech or luxury retail firm. | Plan a seamless 400-guest summit, annual gala, or VIP product launch that reinforces brand prestige. | Tight production timelines, strict compliance/audiovisual demands, fear of logistical failure. | Clear corporate portfolio metrics (attendees, ROI, press), downloadable one-sheets, streamlined consultation scheduler. |
 | **Sophia Martinez (Milestone Celebrant)** | Age 30–60, host planning an anniversary, 40th birthday weekend, or private charity salon. | Wants an unforgettable experience with bespoke gastronomy, scenography, and entertainment. | Overwhelmed by coordination, lack of creative direction, coordinating multiple vendors. | Signature 4-step process breakdown, transparent service tiers, direct private dining/entertainment add-ons. |
 
@@ -33,7 +35,7 @@ The objective of this digital product is to transform Lumina & Co.'s online pres
 
 ```mermaid
 flowchart LR
-    A[Visitor Lands on Lumina Platform] --> B(Visual Immersion & Social Proof)
+    A[Visitor Lands on Exclusive Events Platform] --> B(Visual Immersion & Social Proof)
     B --> C{Interactive Exploration}
     C -->|Calculate Scope| D[Interactive Investment Estimator]
     C -->|Explore Prior Work| E[Filterable Case Studies & Moodboards]
@@ -44,7 +46,7 @@ flowchart LR
     G --> H[High-Converting Discovery Call Scheduled]
 ```
 
-1. **Transparent Empowerment**: Unlike competitors hiding pricing behind ambiguous forms, Lumina provides an intuitive **Event Investment Calculator** calculating ballpark allocations across guest counts, tiers, and signature add-ons.
+1. **Transparent Empowerment**: Unlike competitors hiding pricing behind ambiguous forms, Exclusive Events provides an intuitive **Event Investment Calculator** calculating ballpark allocations across guest counts, tiers, and signature add-ons.
 2. **Editorial Aesthetics + Performance**: High-density visual showcase with fluid transitions, instant responsiveness, and zero lag.
 3. **Frictionless Booking Flow**: Multi-step discovery wizard captures event typology, aesthetic preference, guest count, and calendar availability in under 90 seconds.
 
@@ -53,17 +55,17 @@ flowchart LR
 ## 4. Information Architecture & Site Map
 
 ```
-Lumina & Co. Web Platform
+Exclusive Events Web Platform
 ├── 1. Global Navigation Bar (Sticky, Glassmorphic, Brand Monogram, Quick Call/Book CTA)
 ├── 2. Hero Section (Editorial Title, Social Validation Badges, Primary & Secondary CTAs)
 ├── 3. Impact & Social Proof Ticker (500+ Events, 99.4% Client Satisfaction, Press Badges)
 ├── 4. Interactive Investment & Package Estimator (Real-time dynamic pricing breakdown)
 ├── 5. Signature Services Matrix (Weddings, Corporate Galas, Private Soirées, Destination)
 ├── 6. Curated Portfolio & Case Studies (Filterable grid, lightbox modal, palette swatch previews)
-├── 7. The Lumina Method (4-Phase Signature Production Workflow)
-├── 8. Interactive Moodboard & Aesthetic Visualizer (Visual theme explorer)
+├── 7. The Exclusive Events Method (4-Phase Signature Production Workflow)
+├── 8. Interactive Moodboard Visualizer (Gilded Obsidian Noir, Tuscan Sun & Olive, etc.)
 ├── 9. Verified Client Testimonials & Press Accolades (Carousel with client portraits & reviews)
-├── 10. Multi-Step Consultation & Inquiry Scheduler (Interactive step wizard with confirmation)
+├── 10. Multi-Step Consultation & Inquiry Scheduler (Progressive validation, vibe & budget selection, instant confirmation cards)
 ├── 11. FAQ Accordion (Pricing, timeline, destination fees, vendor exclusivity)
 └── 12. Global Footer (Newsletter signup, social links, contact coordinates, copyright)
 ```
@@ -88,7 +90,7 @@ Lumina & Co. Web Platform
     - VIP Guest Concierge & Luxury Transportation
 * **Outputs**:
   - Live calculated estimated investment range (Low - High estimate).
-  - Itemized estimated distribution breakdown (Design & Management, Venue & Gastronomy, Decor & Scenography, Production & Media).
+  - Itemized estimated distribution breakdown (Design & Management, Venue & Gastronomy, Scenography, Production & Media).
   - Instant CTA: *"Schedule Consultation with This Custom Scope"* which automatically transfers calculated parameters directly into the Consultation Scheduler.
 
 ### 5.2 [P0] Curated Portfolio & Deep-Dive Case Studies
@@ -107,7 +109,7 @@ Lumina & Co. Web Platform
 * **Step 3: Contact Details & Notes**: Name, Email, Phone, Preferred Consultation Method (Virtual Zoom, In-Studio Atelier, Phone), Special notes or dream concepts.
 * **Step 4: Real-time Confirmation**: Dynamic confirmation card displaying booking summary, reference code, calendar expectation, and immediate download/print option.
 
-### 5.4 [P1] The 4-Phase Lumina Method
+### 5.4 [P1] The 4-Phase Exclusive Events Method
 Interactive visual timeline demonstrating end-to-end reliability:
 1. **Phase 01: Concept & Spatial Blueprint** (Aesthetic moodboards, site inspection, budget mapping).
 2. **Phase 02: Curation & Vendor Assembly** (Exclusive vendor contracts, culinary tastings, 3D renderings).
@@ -127,7 +129,7 @@ Interactive visual timeline demonstrating end-to-end reliability:
 ## 6. Design System & Brand Identity Guidelines
 
 ### 6.1 Brand Tone & Philosophy
-- **Keywords**: *Refined, Architectural, Luminescent, Flawless, Hospitable, Timeless.*
+- **Keywords**: *Refined, Architectural, Exclusive, Flawless, Hospitable, Timeless.*
 - **Visual Personality**: High-end fashion editorial meets architectural precision.
 
 ### 6.2 Color Palette
@@ -144,7 +146,7 @@ Border Subtle:           #E2E8F0 / #2D3748
 ```
 
 ### 6.3 Typography
-- **Headings & Display**: Editorial Serif (Playfair Display / Cormorant Garamond style) paired with clean modern Sans-Serif tracking.
+- **Headings & Display**: Editorial Serif (Playfair Display / Cormorant Garamond) paired with clean modern Sans-Serif tracking.
 - **Body & Controls**: Modern Geometrics (Inter / Plus Jakarta Sans) for high readability across data tables, sliders, and form fields.
 
 ---
