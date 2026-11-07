@@ -1,4 +1,4 @@
-name: Deploy Lumina & Co. Events to GitHub Pages
+name: Deploy Exclusive EVENTKN to GitHub Pages
 
 on:
   push:

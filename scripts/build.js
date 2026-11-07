@@ -27,6 +27,12 @@ fs.mkdirSync(path.join(distDir, 'css'), { recursive: true });
 fs.mkdirSync(path.join(distDir, 'js'), { recursive: true });
 fs.mkdirSync(path.join(distDir, 'docs'), { recursive: true });
 
+// Copy public directory if exists
+const publicDir = path.join(rootDir, 'public');
+if (fs.existsSync(publicDir)) {
+  fs.cpSync(publicDir, path.join(distDir, 'public'), { recursive: true });
+}
+
 // Helper: Minify CSS
 function minifyCSS(css) {
   return css
